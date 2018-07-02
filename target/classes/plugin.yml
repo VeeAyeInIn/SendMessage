@@ -1,0 +1,20 @@
+name: Send
+version: 1.0.0
+main: com.grimlytwisted.spigot.sendmessage.core.SendMessage
+prefix: Send Messages
+authors: [GrimlyTwisted]
+description: Send Anonymous / Broadcasts Messages to Users!
+
+
+
+commands:
+
+  sendmessage:
+    usage: "/sendmessage <Player> <Message>"
+    description: "Sends a player a customized message."
+    aliases: ["sm", "messagesend", "ms"]
+
+  sendall:
+    usage: "/sendall <Message>"
+    description: "Sends every player a customized message."
+    aliases: ["sa", "sall"]
